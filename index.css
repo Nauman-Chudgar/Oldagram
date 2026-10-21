@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 50px;
+    background-color: #ededed;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.logo-img {
+    width: 130px;
+}
+
+.profile-img {
+    width: 34px;
+    border-radius: 17px;
+}
+
+.profile {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    padding: 10px 0 10px 10px;
+}
+
+p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.post-img {
+    width: 375px;
+}
+
+.icons {
+    width: 25px;
+}
+
+section, header , .send{
+    width: 375px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    border-bottom: 2px solid #252525;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.send {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header, .send{
+    background-color: white;
+    padding: 10px;
+}
+
+.icon-con {
+    display: flex;
+    gap: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
